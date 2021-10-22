@@ -92,6 +92,7 @@ struct WebSiteView_Previews: PreviewProvider {
 
 ```
 It produces the following in our Live Preview:
+
 ![Full screen view contentView](static/images/swiftui_youtube_preview.png)
 
 Next, we need to display this View in our `ContentView` or other main view. We do that easily within a `VStack` under our title, where we 
@@ -123,10 +124,13 @@ struct ContentView_Previews: PreviewProvider {
 ```
 
 The final app should look like this:
+
 ![Final view full screen](static/images/swift_ui_final_full_screen.png)
 
 Or if you choose to use to remove the full screen features, it will show the comments/ allow people to navigate throughout the website:
+
 ![Partial view full screen](static/images/swift_ui_final_partial_view.png)
 
 Video with the partial screen with full control of the current website:
+
 ![Video with partial screen](static/videos/partial_screen_video.mov)
