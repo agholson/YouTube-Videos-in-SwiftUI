@@ -7,6 +7,9 @@ Marcelo's tutorial does not work in iOS 14/ Xcode 12/13. This example works in b
 
 
 ## Let's get started. 
+
+![Final view full screen](static/images/swift_ui_final_full_screen.png)
+
 First, in order to include web content within SwiftUI, we must make use of a `UIKit View`. In order to do this, create a new `SwiftUI View` 
 within your project. 
 
